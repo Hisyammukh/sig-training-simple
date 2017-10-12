@@ -1,6 +1,5 @@
 package eu.sig.training.ch04;
 
-// tag::CheckingAccount[]
 public class CheckingAccount extends Accounts {
     private static final float INTEREST_PERCENTAGE = 0.01f;
     private Money balance = new Money();
@@ -15,4 +14,3 @@ public class CheckingAccount extends Accounts {
 	}
     }
 }
-// end::CheckingAccount[]
